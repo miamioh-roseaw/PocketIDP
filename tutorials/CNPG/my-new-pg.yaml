@@ -1,9 +1,9 @@
 apiVersion: entity.humanitec.io/v1b1
 kind: Definition
 metadata:
-  id: 5min-idp-uzzq-postgres
+  id: 5min-idp-pxnv-postgres
 entity:
-  name: 5min-idp-uzzq-postgres
+  name: 5min-idp-pxnv-postgres
   type: postgres
   driver_type: humanitec/template
   driver_inputs:
@@ -54,5 +54,5 @@ entity:
           username: {{ .init.user }}
           password: {{ .init.password }}
   criteria:
-    - app_id: 5min-idp-uzzq
+    - app_id: 5min-idp-pxnv
       class: default
